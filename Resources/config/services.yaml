@@ -1,0 +1,5 @@
+services:
+    Fdwebtech\LexikJWTCommandBundle\Command\LexikJWTKeyGeneratorCommand:
+      public: true
+      tags:
+        - { name: 'console.command', command: 'lexik:generate-keys' }

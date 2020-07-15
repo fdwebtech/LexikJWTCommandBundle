@@ -1,0 +1,15 @@
+{
+    "name": "fdwebtech/lexik-jwt-command-bundle",
+    "description": "This bundle provides command to generate SSH keys for LexikJWTAuthenticationBundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5",
+        "lexik/jwt-authentication-bundle": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fdwebtech\\LexikJWTCommandBundle\\": ""
+        }
+    }
+}
